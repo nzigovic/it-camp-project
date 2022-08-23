@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.37),rgba(0, 0, 0, 0.24)), url(Slike/pozadina.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.heder {
+    margin-left: 164px;
+    margin-bottom: 48px;
+    margin-right: 168px;
+    border: 2px solid #80858b ;
+    width: 50vw;
+    padding: 202px;
+    padding-left: 48px;
+    padding-top: 24px;
+    padding-bottom: 107px;
+    border-radius: 24px;
+    transform: translateY(105px);
+    background-color: #cccccc ;
+    
+}
+
+.heder h1 {
+    color: #064360;
+    padding-bottom: 13px;
+}
+.heder p {
+    text-align: justify;
+}
+
+
+.profilna {
+    width: 128px;
+    float: left;
+    margin-right: 18px;
+    border: 2px solid #80858b ;
+    border-radius: 24px;
+}
+
+table, th, td {
+    border:1px solid black;
+    width: 100vh;
+  }
+
+  td, th {
+    text-align: center;
+  }
+
+.tabela {
+    margin-top: 111px;
+    margin-left: 164px;
+    border: 2px solid #80858b ;
+    width: 50vw;
+    padding: 202px;
+    padding-left: 48px;
+    padding-top: 24px;
+    padding-bottom: 107px;
+    border-radius: 24px;
+    background-color: #cccccc ;
+    padding-bottom: 24px;
+    transform: translateY(10px);
+   
+    
+    
+}
+.tabela h1 {
+    color: #003f6a;
+}
+.tabela p {
+    font-weight:bold ;
+}
+
+.o-meni {
+    padding-top: 25px;
+    color: #003f6a;
+    
+}
+
+
+.o-meni ul  {
+    padding-left: 21px;
+    color: #003f6a;
+
+}
+
+.tabela table {
+    width: 60vw;
+}
