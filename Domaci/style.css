@@ -20,9 +20,7 @@
     border: 2px solid #80858b;
     border-radius: 24px;
     padding: 18px;
-    background-color: #cccccc;
-    
-    
+    background-color: #cccccc; 
 }
 
 .profilna {
@@ -35,12 +33,13 @@
 
 .heder h1 {
     color: #064360;
-    padding-bottom: 13px;
-}
-.heder p {
-    text-align: justify;
+    padding-top: 13px;
 }
 
+.heder p {
+    text-align: justify;
+    padding-top: 13px;
+}
 
 .profilna {
     width: 128px;
@@ -53,11 +52,11 @@
 table, th, td {
     border:1px solid black;
     width: 100vh;
-  }
+}
 
-  td, th {
+td, th {
     text-align: center;
-  }
+}
 
 .tabela {
     width: 70%;
@@ -67,29 +66,25 @@ table, th, td {
     margin-left: 15%;
     margin-top: 7%;
     padding: 18px;
-    border-radius: 24px;
-
-    
-    
+    border-radius: 24px;    
 }
+
 .tabela h1 {
     color: #003f6a;
 }
+
 .tabela p {
     font-weight:bold ;
 }
 
 .o-meni {
     padding-top: 25px;
-    color: #003f6a;
-    
+    color: #003f6a;    
 }
-
 
 .o-meni ul  {
     padding-left: 21px;
     color: #003f6a;
-
 }
 
 .tabela table {
