@@ -52,6 +52,7 @@
 table, th, td {
     border:1px solid black;
     width: 100vh;
+    
 }
 
 td, th {
@@ -66,7 +67,8 @@ td, th {
     margin-left: 15%;
     margin-top: 7%;
     padding: 18px;
-    border-radius: 24px;    
+    border-radius: 24px;   
+   
 }
 
 .tabela h1 {
@@ -75,6 +77,7 @@ td, th {
 
 .tabela p {
     font-weight:bold ;
+    padding-bottom: 10px;
 }
 
 .o-meni {
