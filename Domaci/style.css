@@ -59,6 +59,10 @@ td, th {
     text-align: center;
 }
 
+td {
+    border: 1px solid #003f6a;
+}
+
 .tabela {
     width: 70%;
     height: 270px;
