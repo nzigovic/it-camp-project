@@ -9,11 +9,12 @@
     background-color:#4877fb;
     height: 100vh;
     flex-direction: column;
+    
 }
 
 .navbar {
     height: 170px;
-    width: 100vw;    
+    width: 100%;    
     display: flex;
     justify-content: space-around;
 }
@@ -80,23 +81,21 @@ button {
 .opis {
     display: flex;
     justify-content: space-around;
-    width: 100%;
-    height: 50vw;
+    
+    height: 100vh;
     align-items: center;
-    background-color: #f8f9fb;
-    /* margin-left: 90px;
-    margin-right: 90px; */
+    background-color: #cccccc;
     text-align: justify;
    
     
 }
 
 .okolo {
-    border: 1px solid black;
+    border: 1px solid white;
     height: 340px;
-    width: 320px;
-    /* padding-top: 50px; */
-    
+    flex: 1;
+    background-color: #ffff;
+    margin: 10px;
 }
 
 .opis p {
@@ -108,6 +107,8 @@ button {
     width: 50px;
     /* padding-top: 50px; */
     padding-left: 30px;
+    margin-bottom: 10px;
+    
 }
 
 .strelica {
@@ -120,3 +121,7 @@ button {
 #slicice {
     padding-top: 50px;
 }
+
+/* .opis :hover {
+    height: 345px;
+} */
