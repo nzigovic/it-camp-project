@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+    
+}
+.main__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    color: #104533;
+}
+.line {
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #10C98F;
+    width: 100px;
+    height: 2px;
+}
+.main__title p {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #6d6d6d;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+    width: 100vw;
+   
+    
+}
+.card__homeloan {
+    height: 350px;
+    width: 350px;
+    margin: 15px;
+}
+.card__carloan {
+    height: 350px;
+    width: 350px;
+    margin: 15px;
+}
+.card__buinessloan {
+    height: 350px;
+    width: 350px;
+    margin: 15px;
+}
+.logo {
+    height: 60px;
+    margin: 10px 10px 10px 0px;
+}
+.card a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #1a3e32;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.card p {
+    color: #3c7562;
+    margin: 16px 10px 16px 0px;
+}
+
+#p-tag {
+    color: #8c908f;
+    font-size: 20px;
+}
+
+.card :hover a {
+    color: #10c98f;
+}
