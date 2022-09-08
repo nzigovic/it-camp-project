@@ -1,0 +1,564 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.heder{
+    height: 100vh;
+    background-image: url("slike/pexels-andea-colzani-9968642.jpg");
+    background-position: center;
+    background-size: cover;
+    /* display: flex; */
+}
+
+.navbar {
+    height: 70px;
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #34a481;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+
+    
+}
+.navbar ul li  {
+    display: inline-block;
+    padding: 15px;
+    color: azure;
+    font-weight: bold;
+}
+
+.navbar a {
+    display: block;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+.navbar__button {
+display: block;
+  background-color: #10c98f;
+  padding: 10px 40px;
+}
+
+.main__body {
+    display: flex;
+    height: 100vh;
+    
+}
+
+.main__text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main__text h1 {
+    color: white;
+}
+
+
+
+.horizontal-line1 {
+    width: 200px;
+  height: 2px;
+  background-color: white;
+  margin: 16px 0;
+}
+.main__text p{
+    color: white;
+    font-size: 18px;
+}
+.main__form {
+    flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.form__card {
+    background-color: white;
+  height: 70%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 50px;
+}
+
+form label,
+input,
+textarea {
+  display: block;
+}
+
+input {
+  border: 2px solid #10c98f;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  font-style: italic;
+  font-size: 12px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+textarea {
+  border: 2px solid #10c98f;
+  padding: 5px;
+  border-radius: 5px;
+}
+#submit-button {
+    background-color: #10c98f;
+    color: white;
+    border-radius: 10px;
+    margin-top: 16px;
+    border-style: none;
+    padding: 5px 10px;
+  }
+
+ 
+
+.main {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+    flex-wrap: wrap;
+    
+}
+.main__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    color: #104533;
+}
+.line {
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #10C98F;
+    width: 100px;
+    height: 2px;
+    
+}
+.main__title p {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #6d6d6d;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+    flex-wrap: wrap;
+    
+}
+.card__homeloan {
+    height: 350px;
+    width: 350px;
+    margin: 15px;
+}
+.card__carloan {
+    height: 350px;
+    width: 350px;
+    margin: 15px;
+}
+.card__buinessloan {
+    height: 350px;
+    width: 350px;
+    margin: 15px;
+}
+.logo {
+    height: 60px;
+    margin: 10px 10px 40px 0px;
+    display: block;
+    
+}
+.card a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #1a3e32;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.card p {
+    color: #3c7562;
+    margin: 16px 10px 16px 0px;
+}
+
+#p-tag {
+    color: #8c908f;
+    font-size: 20px;
+}
+
+.card :hover a {
+    color: #10c98f;
+}
+
+.solutions {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .solution__title {
+    text-align: center;
+  }
+  
+  .solution__cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .soluton__card {
+    padding: 100px;
+  }
+  
+  .solution__image {
+    width: 50px;
+  }
+  
+  .offer {
+    height: 100vh;
+    background-color: #e4f1ed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .offer__container {
+    display: flex;
+  }
+  
+  .offer-image {
+    width: calc(100% - 100px);
+    padding-bottom: 100px;
+    display: block;
+    z-index: 10;
+  }
+  
+  .offer-image__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 50px;
+    z-index: 4;
+  }
+  
+  .offer__details {
+    flex: 1;
+  }
+  
+  .offer-image__description {
+    background-color: #10c98f;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    z-index: 15;
+    color: white;
+  }
+
+  .offer__details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: space-around;
+    
+  }
+  .offer__details h1 {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+
+  .offer___details {
+    display: block;
+  }
+
+.offer___details p {
+  display: flex;
+  padding-bottom: 25px;
+  color: #8c908f;
+}
+
+
+  .horizontal-line-white {
+    width: 100%;
+    height: 3px;
+    background-color: rgba(161, 149, 149, 0.63);
+    margin-bottom: 25px;
+  }
+
+.offer___details ul li {
+  color: #0f433e;
+  font-size: 18px;
+  margin-left: 15px;
+  margin: 15px;
+}
+
+.learn-more-button {
+  display: inline-block;
+  
+  
+  border: 2px solid #10C98F;
+  padding: 17px 0px;
+}
+.learn-more-button  a {
+  transition: 0.4s;
+  padding: 17px 34px; 
+  text-decoration: none;
+  color: #10C98F;
+  font-weight: 600;
+  
+}
+
+.learn-more-button :hover  {
+  background-color: #10C98F;
+  color: white;
+}
+
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 400px;
+  
+  
+}
+.card__homeloan {
+  height: 350px;
+  width: 350px;
+  margin: 15px;
+}
+.card__carloan {
+  height: 350px;
+  width: 350px;
+  margin: 15px;
+}
+.card__buinessloan {
+  height: 350px;
+  width: 350px;
+  margin: 15px;
+}
+
+.card a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #1a3e32;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.card p {
+  color: #3c7562;
+  margin: 16px 10px 16px 0px;
+}
+
+#p-tag {
+  color: #8c908f;
+  font-size: 20px;
+}
+
+.card :hover a {
+  color: #10c98f;
+}
+
+.kartice {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+}
+
+.horizontal-line {
+  width: 100px;
+  display: flex;
+  text-align: center ;
+  height: 2px;
+  background-color: green;
+  margin: 16px 0; 
+}
+.naslov h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.logo1 {
+  height: 60px;
+  padding-left: 50px;
+}
+.naslov p {
+  font-size: 18px;
+  color: #3c7562;
+  margin-top: 15px;
+}
+
+.kartice-rad {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 350px;
+  justify-content: center;
+}
+
+
+.vreme img {
+  height:60px;
+  display: block;
+}
+
+.vreme h2 {
+  display: block;
+}
+
+.card__homeloan2{
+  height: 350px;
+  width: 250px;
+  margin: 15px;
+}
+.card__carloan2 {
+  height: 350px;
+  width: 250px;
+  margin: 15px;
+}
+.card__buinessloan2 {
+  height: 350px;
+  width: 250px;
+  margin: 15px;
+}
+.card-time {
+  height: 350px;
+  width: 250px;
+  margin: 15px;
+
+}
+.card a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #1a3e32;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.card p {
+  color: #3c7562;
+  margin: 16px 10px 16px 0px;
+}
+
+#p-tag {
+  color: #8c908f;
+  font-size: 20px;
+}
+
+.card :hover a {
+  color: #10c98f;
+}
+
+.opis {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(161, 149, 149, 0.151);
+}
+.opis-slika {
+  flex: 1;
+  display: flex;
+  align-items: center;
+
+}
+.opis-text {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 100px 0 100px;
+}
+.opis-slika img {
+  width: 70%;
+  border-radius: 10px;
+}
+
+#uvod {
+  display: block;
+  margin-bottom: 24px;
+  font-size: 45px;
+}
+.opis-text p {
+  display: flex;
+  padding-bottom: 25px;
+  color: #8c908f;
+  font-size: 20px;
+}
+
+.offer___details2 {
+  font-size: 24px;
+  color: #0f433e;
+
+}
+
+.learn-more-button2 a {
+  transition: 0.4s;
+    padding: 17px 34px;
+    text-decoration: none;
+    color: #10C98F;
+    font-weight: 600;
+}
+
+.learn-more-button2 {
+  display: inline-block;
+  margin-top: 35px;
+  
+  
+  border: 2px solid #10C98F;
+  padding: 17px 0px;
+}
+.learn-more-button2 :hover  {
+  background-color: #10C98F;
+  color: white;
+}
+.line2 {
+  display: flex;
+  text-align: center;
+  margin-top: 30px;
+  background-color: #10C98F;
+  width: 100px;
+  height: 2px;
+  margin-left: 40%;
+}
