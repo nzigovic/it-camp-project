@@ -7,7 +7,6 @@
     background-image: url("slike/pexels-andea-colzani-9968642.jpg");
     background-position: center;
     background-size: cover;
-    /* display: flex; */
 }
 
 .navbar {
@@ -530,6 +529,7 @@ textarea {
 .offer___details2 {
   font-size: 24px;
   color: #0f433e;
+  display: flex;
 
 }
 
