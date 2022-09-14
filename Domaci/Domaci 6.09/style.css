@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.main_heder {
+    height: 100vh;
+}
 
 .main {
     display: flex;
